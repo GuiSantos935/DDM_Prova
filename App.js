@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Guilherme from './SRC/components/Guilherme/main';
+import Isabel from './SRC/components/Isabel';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-       <Text>Open up App.js to start working on your app!</Text>
+     <Guilherme/>
+     <Isabel/>
       <StatusBar style="auto" />
     </View>
   );
